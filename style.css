@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lateef&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Bangers&family=Permanent+Marker&family=Rubik+Glitch&family=Rye&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("https://www.jacksturf.com/wp-content/uploads/2016/04/grass-background.jpg");
+}
+.clk{
+    font-family: 'Tangerine', cursive;
+    font-size:2em;
+    color: rgb(0, 128, 255) !important;
+
+}
+.content{
+    font-family: 'Tangerine', cursive;
+    font-size:3em;
+    color: rgb(1, 75, 40) !important;
+
+}
+.topic{
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size:5em;
+    color: rgb(0, 85, 255) !important;
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+}
+.img1{
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+    
+}
+button{
+    
+    border: 3px solid rgb(0, 85, 255);
+    color:rgb(0, 85, 255);
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 2em;
+    border-radius: 10px;
+    margin: 2px;
+    background-color:rgb(255, 255, 255);
+
+}
+button:active{
+    transform: scale(0.98);
+}
+button:focus{
+    outline: none;
+}
